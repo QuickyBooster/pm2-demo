@@ -5,6 +5,6 @@ const server = http.createServer((req, res) => {
   res.end('Hello, World!\n');
 });
 
-server.listen(3002, () => {
-  console.log('Server is listening on port 3002');
+server.listen(3783, () => {
+  console.log('Server is listening on port 3783');
 });

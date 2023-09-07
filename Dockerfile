@@ -21,10 +21,10 @@ ENV PM2_SECRET_KEY ufceqth12pwsf7u
 
 CMD ["pm2-runtime", "app.js"]
 
-EXPOSE 3000
+EXPOSE 3781
 
-EXPOSE 3001
+EXPOSE 3782
 
-EXPOSE 3002
+EXPOSE 3783
 
 CMD [ "pm2-runtime", "start", "ecosystem.config.js" ]

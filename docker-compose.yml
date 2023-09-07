@@ -1,0 +1,9 @@
+services:
+  pm2-demo:
+    build: .
+    image: quickybooster/pm2-demo:${TAG}
+    ports:
+      - "3781:3781"
+      - "3782:3782"
+      - "3783:3783"
+  
